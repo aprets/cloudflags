@@ -1,0 +1,40 @@
+<svg fill="none" viewBox="0 0 800 70" width="800" height="70" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes hovering {
+          0% {
+            transform: translate(2px, 0px) rotate(0deg);
+          }
+
+          25% {
+            transform: translate(4px, 2px) rotate(1deg);
+          }
+
+          50% {
+            transform: translate(2px, 0px) rotate(0deg);
+          }
+
+          75% {
+            transform: translate(0px, -2px) rotate(-1deg);
+          }
+
+          100% {
+            transform: translate(2px, 0px) rotate(0deg);
+            ;
+          }
+        }
+
+        .headline {
+          font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+          animation: hovering 10s linear 2.5s infinite forwards;
+          background-image: linear-gradient(to right, rgb(251, 146, 60), rgb(251, 113, 133));
+          color: transparent;
+          background-clip: text;
+          display: inline-block;
+        }
+      </style>
+      <h2 class="headline">CloudFlags 🚩</h2>
+    </div>
+  </foreignObject>
+</svg>

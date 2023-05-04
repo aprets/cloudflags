@@ -1,0 +1,4 @@
+.dev.vars
+.env.local
+node_modules
+assets/static/tailwind.css

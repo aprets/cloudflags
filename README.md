@@ -10,6 +10,9 @@
 
 Feel free to look through the tiny codebase to understand how it works.
 
+![image](https://user-images.githubusercontent.com/15954684/236348029-d4f21f1b-9c17-413f-a764-d9c682b222b4.png)
+
+
 ## 🚀 Quick Start
 1. Create a KV namespace for the flags to be stored in and update the `wrangler.toml` file with the namespace ID.
 2. Make any changes you want to the `wrangler.toml` file and the codebase in general.
